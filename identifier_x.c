@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
-
+// La realidad es que este proyecto se puede simplificar haciendo un putnumber base//
 void	type_x(unsigned int nb, const char type, int *count)
 {
 	char	*base;
