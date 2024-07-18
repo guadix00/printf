@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
+// tiene mas sentido hacer el parser en void, no necesita return
 int	format_parser(char type, va_list arg, int *count)
 {
 	if (type == 'c')
