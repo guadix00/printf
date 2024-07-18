@@ -51,7 +51,7 @@ int	ft_printf(char const *str, ...)
 		{
 			i++;
 			if (str[i] == '\0')
-				return (count);
+				return (-1);
 			format_parser(str[i], arg, &count);
 		}
 		else
