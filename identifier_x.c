@@ -42,7 +42,8 @@ void	type_x_ptr(unsigned long ptr, int *count)
 		type_x_ptr((ptr / 16), count);
 	type_c((base[ptr % 16]), count);
 }
-
+/* en la primera version, solo se usaba la funcion de conversion hexadecimal incluso para el puntero, pero el tipo de dato tiene que ser unsigned long para ptr y unsigned int para hexa
+se podria castear, check cambio de versiones*/
 void	type_p(unsigned long ptr, int *count)
 {
 	if (ptr == '\0')
