@@ -35,7 +35,7 @@ int	format_parser(char type, va_list arg, int *count)
 	}
 	return (0);
 }
-
+// se podria anadir otra funcion que sea un check del error de write 
 int	ft_printf(char const *str, ...)
 {
 	int			i;
